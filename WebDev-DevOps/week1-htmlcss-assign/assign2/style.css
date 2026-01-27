@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.main-container {
+  display: flex;
+}
+.left {
+  background-color: #1d1d1c;
+  width: 50vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-left: 5vw;
+  color: white;
+  gap: 0.3em;
+}
+
+.header {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  padding-bottom: 0.8em;
+}
+
+.points {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6em;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* color: #6e6f6f; */
+  padding-bottom: 0.9em;
+}
+
+#trusted {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6f6f;
+  padding-top: 0.9em;
+}
+
+.container {
+}
+/* RIGHT */
+.right-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+  gap: 0.7em;
+  box-sizing: border-box;
+}
+
+#heading {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+#sub-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6e6f6f;
+  padding-bottom: 1.6em;
+}
+
+label {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  padding-bottom: 0.6em;
+}
+input {
+  width: 34vw;
+  border: 1px solid #6e6f6f7a;
+  height: 3em;
+  border-radius: 0.7em;
+  box-sizing: border-box;
+  padding: 1em;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #929292;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.next-button {
+  background-color: #6e6f6f;
+  border: none;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+
+  color: white;
+  border-radius: 2em;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.next-button-progress-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+hr {
+  width: 5vw;
+  height: 4px;
+  border: none;
+  background-color: #d6d3d1;
+  border-radius: 1em;
+}
