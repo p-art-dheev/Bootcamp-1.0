@@ -44,14 +44,21 @@ hr {
   padding: 1.2em;
 }
 
-.box1 {
-  background-color: white;
+.card-boxes {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  position: relative;
 }
+
+.card-boxes img {
+  position: absolute;
+  left: 12px; /* adjust padding */
+}
+
+.card-boxes span {
+  margin: 0 auto;
+}
+
 .box-signup {
   color: white;
   background-color: #a6a7af;
@@ -59,7 +66,4 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-p {
 }
